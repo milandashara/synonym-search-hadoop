@@ -18,23 +18,24 @@ package synonymSearchEngine.mapReduce;
 import java.io.IOException;
 import java.util.Iterator;
 
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class SumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+public class SumReducer extends Reducer<Text, Text, Text, Text> {
 
-	private IntWritable totalWordCount = new IntWritable();
+	private Text totalWordCount = new Text();
 
 	@Override
-	public void reduce(Text key, Iterable<IntWritable> values, Context context)
+	public void reduce(Text key, Iterable<Text> values, Context context)
 			throws IOException, InterruptedException {
 		int wordCount = 0;
-		Iterator<IntWritable> it = values.iterator();
+		Iterator<Text> it = values.iterator();
+		
 		while (it.hasNext()) {
-			wordCount += it.next().get();
+			System.out.println(it.next().toString());
+			wordCount ++;
 		}
-		totalWordCount.set(wordCount);
+		totalWordCount.set(""+wordCount);
 		context.write(key, totalWordCount);
 	}
 }

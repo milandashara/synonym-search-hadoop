@@ -38,7 +38,7 @@ public class WordCount {
 		Job job = Job.getInstance(conf);
 	
 		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(IntWritable.class);
+		job.setOutputValueClass(Text.class);
 
 		job.setMapperClass(WordMapper.class);
 		job.setReducerClass(SumReducer.class);

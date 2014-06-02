@@ -15,7 +15,7 @@ import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
-public class CustomTextInputFormat extends FileInputFormat<LongWritable, Text> {
+public class Dictionary1TextInputFormat extends FileInputFormat<LongWritable, Text> {
 
 	@Override
 	public RecordReader<LongWritable, Text> createRecordReader(InputSplit arg0,

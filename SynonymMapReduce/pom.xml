@@ -15,13 +15,24 @@
 	</properties>
 
 	<repositories>
+		<!-- <repository> <id>cassandra-dependency</id> <name>Cassandra Dependencies</name> 
+			<url>http://repo1.maven.org/maven2</url> <snapshots> <enabled>true</enabled> 
+			</snapshots> </repository> -->
 		<repository>
 			<id>cassandra-dependency</id>
 			<name>Cassandra Dependencies</name>
-			<url>http://repo1.maven.org/maven2</url>
+			<url>http://repo.springsource.org/libs-release-remote/org/apache/hcatalog/hcatalog-core/0.5.0-cdh4.7.0/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
+		</repository>
+		<repository>
+			<id>cloudera-repo-releases</id>
+			<url>https://repository.cloudera.com/artifactory/repo/</url>
+		</repository>
+		<repository>
+			<id>spring-milestones</id>
+			<url>http://repo.springsource.org/libs-milestone/</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -38,6 +49,13 @@
 			<artifactId>hadoop-core</artifactId>
 			<version>LATEST</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.hcatalog</groupId>
+			<artifactId>hcatalog-core</artifactId>
+			<version>0.5.0-cdh4.7.0</version>
+		</dependency>
+
+
 
 	</dependencies>
 

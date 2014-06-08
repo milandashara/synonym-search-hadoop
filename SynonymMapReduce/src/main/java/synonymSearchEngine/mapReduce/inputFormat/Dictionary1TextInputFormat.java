@@ -1,4 +1,4 @@
-package synonymSearchEngine.mapReduce;
+package synonymSearchEngine.mapReduce.inputFormat;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -7,11 +7,12 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hive.hcatalog.data.DefaultHCatRecord;
 import org.apache.hive.hcatalog.data.schema.HCatSchema;
-import org.apache.hive.hcatalog.mapreduce.HCatInputFormat;
 import org.apache.hive.hcatalog.mapreduce.HCatOutputFormat;
-import org.apache.hive.hcatalog.mapreduce.InputJobInfo;
 import org.apache.hive.hcatalog.mapreduce.OutputJobInfo;
 
 import synonymSearchEngine.mapReduce.inputFormat.Dictionary1TextInputFormat;
@@ -27,7 +28,9 @@ public class SynonymMapReduce {
 				"/home/cloudera/git/synonym-search-hadoop/SynonymMapReduce/conf/hive-site.xml");
 
 		Configuration conf = new Configuration();
-		conf.set("keyword", "difficult");
+		String keyword="difficult";
+		keyword.toUpperCase();
+		conf.set("keyword", keyword);
 		FileSystem.getLocal(conf).delete(new Path(args[1]), true);
 
 		conf.set("textinputformat.record.delimiter", ":");
@@ -35,7 +38,8 @@ public class SynonymMapReduce {
 
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(Text.class);
-
+		job.setMapOutputKeyClass(Text.class);
+		job.setMapOutputValueClass(Text.class);
 		job.setMapperClass(SynonymMapper.class);
 		job.setReducerClass(SynonymReducer.class);
 
@@ -50,13 +54,15 @@ public class SynonymMapReduce {
 
 		
 		  FileInputFormat.setInputPaths(job, new Path(args[0]));
-		 /*
-		 * FileOutputFormat.setOutputPath(job, new Path(args[1]));
-		 * MultipleOutputs.addNamedOutput(job, "synonyms",
-		 * TextOutputFormat.class, Text.class, Text.class);
-		 */
+		 
+		  /*  FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		  MultipleOutputs.addNamedOutput(job, "synonyms",
+		  TextOutputFormat.class, Text.class, Text.class);*/
+		 
 		HCatOutputFormat.setOutput(job,
-				OutputJobInfo.create("synonym", "synonym", null));
+				OutputJobInfo.create("default", "synonym", null));
+/*		HCatOutputFormat.setOutput(job,
+				OutputJobInfo.create("synonym", "synonym", null));*/
 		HCatSchema s = HCatOutputFormat.getTableSchema(job);
 		System.err.println("INFO: output schema explicitly set for writing:"
 				+ s);

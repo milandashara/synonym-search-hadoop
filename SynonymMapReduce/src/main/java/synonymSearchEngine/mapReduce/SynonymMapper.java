@@ -21,7 +21,7 @@ public class SynonymMapper extends Mapper<Object, Text, Text, Text> {
 
 		if (filename.equalsIgnoreCase("dictionary1")) {
 			
-			if (value.toString().startsWith(keyword) && value.toString().contains("Synonyms")) {
+			if (value.toString().startsWith(keyword.toUpperCase()) && value.toString().contains("Synonyms")) {
 				//System.out.println(value.toString());
 				String temp[]=value.toString().split("\\.");
 				String commaSeperatedSynonyms = "";

@@ -9,15 +9,17 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
 import org.apache.hive.hcatalog.data.DefaultHCatRecord;
 import org.apache.hive.hcatalog.data.HCatRecord;
 
 
-public class SynonymReducer extends Reducer<Text, Text, WritableComparable, HCatRecord> {
+public class SynonymReducer extends Reducer<Text, Text, 
+WritableComparable<LongWritable>, HCatRecord> {
 
 	private Text synonymsText = new Text();
 	private int id=0;
-	//private MultipleOutputs<Text, Text> mos;
+	private MultipleOutputs<Text, Text> mos;
 
 	@Override
 	public void setup(final Context context) {
@@ -42,14 +44,14 @@ public class SynonymReducer extends Reducer<Text, Text, WritableComparable, HCat
 			//synonyms=synonyms+","+it.next().toString();
 			s.add(it.next().toString());
 		}
-		synonymsText.set(synonyms);
-		//mos.write("synonyms",key, synonymsText);
-		 HCatRecord record = new DefaultHCatRecord(1);
+		//synonymsText.set(synonyms);
+	//mos.write("synonyms",key, synonymsText);
+	HCatRecord record = new DefaultHCatRecord(2);
          record.set(0, key.toString());
          record.set(1, s);
-         context.write(new LongWritable(++id), record);
+         context.write(null, record);
 		
-		//context.write(key, totalWordCount);
-		//context.progress();
+		//context.write(key, synonymsText);
+		context.progress();
 	}
 }

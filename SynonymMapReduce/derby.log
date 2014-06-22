@@ -1,0 +1,6 @@
+----------------------------------------------------------------
+2014-06-22 05:13:58.527 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.6.1.0 - (938214): instance a816c00e-0146-c1fe-c6f4-0000053d3de8 
+on database directory /home/cloudera/git/synonym-search-hadoop/SynonymMapReduce/metastore_db   with class loader sun.misc.Launcher$AppClassLoader@77a6686
+
+Database Class Loader started - derby.database.classpath=''

@@ -5,15 +5,18 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.mapreduce.Reducer;
-import org.apache.hcatalog.data.DefaultHCatRecord;
-import org.apache.hcatalog.data.HCatRecord;
+import org.apache.hive.hcatalog.data.DefaultHCatRecord;
+import org.apache.hive.hcatalog.data.HCatRecord;
+
 
 public class SynonymReducer extends Reducer<Text, Text, WritableComparable, HCatRecord> {
 
 	private Text synonymsText = new Text();
+	private int id=0;
 	//private MultipleOutputs<Text, Text> mos;
 
 	@Override
@@ -44,7 +47,7 @@ public class SynonymReducer extends Reducer<Text, Text, WritableComparable, HCat
 		 HCatRecord record = new DefaultHCatRecord(1);
          record.set(0, key.toString());
          record.set(1, s);
-         context.write(null, record);
+         context.write(new LongWritable(++id), record);
 		
 		//context.write(key, totalWordCount);
 		//context.progress();

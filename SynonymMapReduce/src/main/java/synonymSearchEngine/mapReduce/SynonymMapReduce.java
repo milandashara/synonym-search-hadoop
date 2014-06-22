@@ -60,7 +60,7 @@ public class SynonymMapReduce {
 		  TextOutputFormat.class, Text.class, Text.class);*/
 		 
 		HCatOutputFormat.setOutput(job,
-				OutputJobInfo.create("default", "synonym", null));
+				OutputJobInfo.create("synonymdb", "synonyms", null));
 /*		HCatOutputFormat.setOutput(job,
 				OutputJobInfo.create("synonym", "synonym", null));*/
 		HCatSchema s = HCatOutputFormat.getTableSchema(job);

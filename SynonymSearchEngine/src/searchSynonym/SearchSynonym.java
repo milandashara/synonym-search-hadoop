@@ -1,11 +1,19 @@
 package searchSynonym;
 
+import hive.client.HiveJdbcClient;
+
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import synonymSearchEngine.mapReduce.SynonymMapReduce;
 
 /**
  * Servlet implementation class SearchSynonym
@@ -25,7 +33,35 @@ public class SearchSynonym extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String searchString=request.getParameter("searchTextBox").toString();
+		String searchKeyword=request.getParameter("searchTextBox").toString();
+		HiveJdbcClient hjc=new HiveJdbcClient();
+		String s[]=hjc.searchString(searchKeyword);
+		List<String> synonyms=new ArrayList<String>();
+		if(s==null)
+		{
+			SynonymMapReduce mapReduce=new SynonymMapReduce();
+			mapReduce.startSynonymSearchMapReduce(searchKeyword);
+			s=hjc.searchString(searchKeyword);
+			if(s==null)
+			{
+				synonyms.add("No Synonyms Found");
+			}
+			else
+			{
+				synonyms=Arrays.asList(s);
+				
+			}
+		}
+		else
+		{
+			synonyms=Arrays.asList(s);
+			
+		}
+		
+		for(String synonym:synonyms)
+		{
+			response.getOutputStream().println(synonym +",");
+		}
 	}
 
 	/**

@@ -131,5 +131,6 @@
 	<classpathentry kind="lib" path="/opt/cloudera/parcels/CDH-5.0.0-1.cdh5.0.0.p0.47/lib/hive/lib/velocity-1.5.jar"/>
 	<classpathentry kind="lib" path="/opt/cloudera/parcels/CDH-5.0.0-1.cdh5.0.0.p0.47/lib/hive/lib/xz-1.0.jar"/>
 	<classpathentry kind="lib" path="/opt/cloudera/parcels/CDH-5.0.0-1.cdh5.0.0.p0.47/lib/hive/lib/zookeeper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

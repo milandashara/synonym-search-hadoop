@@ -3,6 +3,7 @@
 	<name>SynonymSearchEngine</name>
 	<comment></comment>
 	<projects>
+		<project>SynonymMapReduce</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

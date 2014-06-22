@@ -41,7 +41,7 @@ public class HiveJdbcClient {
 		Statement stmt = con.createStatement();
 		
 		// select * query
-		String sql = "select * from " + tableName +" where name =\""+searchKeyword+"\"";
+		String sql = "select * from " + tableName +" where synonym =\""+searchKeyword+"\"";
 		System.out.println("Running: " + sql);
 		ResultSet res = stmt.executeQuery(sql);
 		if (res.next()) {

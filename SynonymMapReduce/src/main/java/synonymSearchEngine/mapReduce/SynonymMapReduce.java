@@ -1,6 +1,7 @@
 package synonymSearchEngine.mapReduce;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -17,62 +18,14 @@ import org.apache.hive.hcatalog.mapreduce.OutputJobInfo;
 import synonymSearchEngine.mapReduce.inputFormat.Dictionary1TextInputFormat;
 
 public class SynonymMapReduce {
+	
+	public static String tableName = "synonyms";
+	public static String dbName = "synonymdb";
+	
 	public static void main(String[] args) throws Exception {
-		if (args.length != 2) {
-			System.out.println("usage: [input] [output]");
-			System.exit(-1);
-		}
 
-		System.setProperty("conf.HiveConf",
-				"/home/cloudera/git/synonym-search-hadoop/SynonymMapReduce/conf/hive-site.xml");
-
-		Configuration conf = new Configuration();
-		String keyword = "difficult";
-		keyword.toUpperCase();
-		conf.set("keyword", keyword);
-		FileSystem.getLocal(conf).delete(new Path(args[1]), true);
-
-		conf.set("textinputformat.record.delimiter", ":");
-		Job job = Job.getInstance(conf);
-
-		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(Text.class);
-		job.setMapOutputKeyClass(Text.class);
-		job.setMapOutputValueClass(Text.class);
-		job.setMapperClass(SynonymMapper.class);
-		job.setReducerClass(SynonymReducer.class);
-
-		job.setInputFormatClass(Dictionary1TextInputFormat.class);
-
-		// job.setOutputFormatClass(TextOutputFormat.class);
-		// Ignore the key for the reducer output; emitting an HCatalog record as
-		// value
-		job.setOutputKeyClass(WritableComparable.class);
-		job.setOutputValueClass(DefaultHCatRecord.class);
-		job.setOutputFormatClass(HCatOutputFormat.class);
-
-		FileInputFormat.setInputPaths(job, new Path(args[0]));
-
-		/*
-		 * FileOutputFormat.setOutputPath(job, new Path(args[1]));
-		 * MultipleOutputs.addNamedOutput(job, "synonyms",
-		 * TextOutputFormat.class, Text.class, Text.class);
-		 */
-
-		HCatOutputFormat.setOutput(job,
-				OutputJobInfo.create("default", "synonym", null));
-		/*
-		 * HCatOutputFormat.setOutput(job, OutputJobInfo.create("synonym",
-		 * "synonym", null));
-		 */
-		HCatSchema s = HCatOutputFormat.getTableSchema(job);
-		System.err.println("INFO: output schema explicitly set for writing:"
-				+ s);
-		HCatOutputFormat.setSchema(job, s);
-		job.setJarByClass(SynonymMapReduce.class);
-
-		job.submit();
-
+		SynonymMapReduce mapReduce=new SynonymMapReduce();
+		mapReduce.startSynonymSearchMapReduce("difficult");
 	}
 
 	public void startSynonymSearchMapReduce(String searchKeyword) {
@@ -84,7 +37,7 @@ public class SynonymMapReduce {
 		String keyword = searchKeyword;
 		keyword.toUpperCase();
 		conf.set("keyword", keyword);
-		FileSystem.getLocal(conf).delete(new Path("input"), true);
+		FileSystem.getLocal(conf).delete(new Path("output"), true);
 
 		conf.set("textinputformat.record.delimiter", ":");
 		Job job = Job.getInstance(conf);
@@ -113,9 +66,10 @@ public class SynonymMapReduce {
 			 * MultipleOutputs.addNamedOutput(job, "synonyms",
 			 * TextOutputFormat.class, Text.class, Text.class);
 			 */
-
+			HashMap<String, String> partition = new HashMap<String, String>();
+			partition.put("synonym", searchKeyword);
 			HCatOutputFormat.setOutput(job,
-					OutputJobInfo.create("synonym", "synonym", null));
+					OutputJobInfo.create(dbName, tableName, partition));
 			/*
 			 * HCatOutputFormat.setOutput(job, OutputJobInfo.create("synonym",
 			 * "synonym", null));

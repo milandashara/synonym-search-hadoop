@@ -233,3 +233,1159 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 2014-06-22 01:08:23,504 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
 2014-06-22 01:08:23,518 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
 2014-06-22 01:08:23,526 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:15:11,655 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:15:12,324 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:15:12,325 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:15:12,325 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:15:12,325 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:15:12,325 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:15:12,325 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:15:12,326 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:15:13,132 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:15:13,470 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:15:13,513 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:15:13,808 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:15:14,668 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:15:14,669 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:15:14,854 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:15:15,235 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:15:15,326 INFO org.apache.hadoop.mapreduce.JobSubmitter: Cleaning up the staging area file:/tmp/hadoop-cloudera/mapred/staging/cloudera643653960/.staging/job_local643653960_0001
+2014-06-22 07:15:15,327 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input
+2014-06-22 07:20:10,501 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:20:10,889 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:20:10,890 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:20:10,891 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:20:10,891 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:20:10,891 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:20:10,892 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:20:10,892 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:20:11,454 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:20:11,796 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:20:11,838 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:20:12,076 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:20:13,183 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:20:13,184 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:20:13,354 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:20:13,601 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:20:13,657 INFO org.apache.hadoop.mapreduce.JobSubmitter: Cleaning up the staging area file:/tmp/hadoop-cloudera/mapred/staging/cloudera1479739764/.staging/job_local1479739764_0001
+2014-06-22 07:20:13,658 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input
+2014-06-22 07:23:39,701 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:23:40,293 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:23:40,293 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:23:40,293 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:23:40,293 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:23:40,294 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:23:40,294 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:23:40,294 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:23:40,759 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:23:40,997 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:23:41,051 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:23:41,308 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:23:42,371 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:23:42,373 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:23:42,492 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:23:42,950 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:23:43,566 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 07:23:43,747 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 07:23:44,152 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local398637799_0001
+2014-06-22 07:23:44,291 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera398637799/.staging/job_local398637799_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:23:44,292 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera398637799/.staging/job_local398637799_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:23:44,606 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local398637799_0001/job_local398637799_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:23:44,607 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local398637799_0001/job_local398637799_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:23:44,624 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 07:23:44,641 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 07:23:44,680 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:23:44,686 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+2014-06-22 07:23:44,699 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 07:23:44,828 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 07:23:44,829 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local398637799_0001_m_000000_0
+2014-06-22 07:23:44,961 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:23:44,970 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 07:23:45,044 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:23:45,123 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:23:45,123 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:23:45,123 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:23:45,123 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:23:45,123 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:23:46,431 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:23:46,431 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:23:46,450 INFO org.apache.hadoop.mapred.Task: Task:attempt_local398637799_0001_m_000000_0 is done. And is in the process of committing
+2014-06-22 07:23:46,473 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:23:46,473 INFO org.apache.hadoop.mapred.Task: Task attempt_local398637799_0001_m_000000_0 is allowed to commit now
+2014-06-22 07:23:46,488 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local398637799_0001_m_000000_0
+2014-06-22 07:23:46,492 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:23:46,493 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local398637799_0001_m_000000_0' done.
+2014-06-22 07:23:46,493 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local398637799_0001_m_000000_0
+2014-06-22 07:23:46,494 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local398637799_0001_m_000001_0
+2014-06-22 07:23:46,539 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:23:46,546 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 07:23:46,546 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:23:46,568 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:23:46,569 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:23:46,569 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:23:46,569 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:23:46,569 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:23:46,981 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:23:46,982 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:23:46,982 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 07:23:46,982 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 145; bufvoid = 104857600
+2014-06-22 07:23:46,982 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-06-22 07:23:46,992 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 07:23:46,994 INFO org.apache.hadoop.mapred.Task: Task:attempt_local398637799_0001_m_000001_0 is done. And is in the process of committing
+2014-06-22 07:23:46,999 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:23:47,000 INFO org.apache.hadoop.mapred.Task: Task attempt_local398637799_0001_m_000001_0 is allowed to commit now
+2014-06-22 07:23:47,005 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local398637799_0001_m_000001_0
+2014-06-22 07:23:47,007 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:23:47,009 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local398637799_0001_m_000001_0' done.
+2014-06-22 07:23:47,009 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local398637799_0001_m_000001_0
+2014-06-22 07:23:47,011 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 07:23:47,025 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 07:23:47,026 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local398637799_0001_r_000000_0
+2014-06-22 07:23:47,124 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:23:47,141 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@5b44ee35
+2014-06-22 07:23:47,172 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 07:23:47,183 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local398637799_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 07:23:47,245 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local398637799_0001_m_000001_0 decomp: 163 len: 167 to MEMORY
+2014-06-22 07:23:47,250 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 163 bytes from map-output for attempt_local398637799_0001_m_000001_0
+2014-06-22 07:23:47,257 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 163, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->163
+2014-06-22 07:23:47,328 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local398637799_0001_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 07:23:47,330 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local398637799_0001_m_000000_0
+2014-06-22 07:23:47,332 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 163, usedMemory ->165
+2014-06-22 07:23:47,333 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 07:23:47,337 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:23:47,339 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 07:23:47,370 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 07:23:47,373 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 151 bytes
+2014-06-22 07:23:47,374 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 165 bytes to disk to satisfy reduce memory limit
+2014-06-22 07:23:47,378 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 167 bytes from disk
+2014-06-22 07:23:47,383 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 07:23:47,384 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 07:23:47,386 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 151 bytes
+2014-06-22 07:23:47,392 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:23:47,419 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2014-06-22 07:23:47,423 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2014-06-22 07:23:47,733 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-06-22 07:23:48,037 INFO org.apache.hadoop.mapred.Task: Task:attempt_local398637799_0001_r_000000_0 is done. And is in the process of committing
+2014-06-22 07:23:48,103 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:23:48,103 INFO org.apache.hadoop.mapred.Task: Task attempt_local398637799_0001_r_000000_0 is allowed to commit now
+2014-06-22 07:23:48,128 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local398637799_0001_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/_TEMP/_temporary/0/task_local398637799_0001_r_000000
+2014-06-22 07:23:48,131 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 07:23:48,131 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local398637799_0001_r_000000_0' done.
+2014-06-22 07:23:48,131 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local398637799_0001_r_000000_0
+2014-06-22 07:23:48,131 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 07:23:48,221 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 07:23:48,292 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local398637799_0001/job_local398637799_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:23:48,292 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local398637799_0001/job_local398637799_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:23:48,328 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:23:48,361 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:23:48,368 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:30:05,377 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:30:06,275 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:30:06,276 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:30:06,276 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:30:06,276 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:30:06,276 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:30:06,276 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:30:06,277 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:30:06,942 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:30:07,223 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:30:07,287 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:30:07,672 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:30:08,577 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:30:08,579 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:30:08,738 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:30:08,801 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2003 : Non-partitioned table already contains data : synonymdb.synonyms
+2014-06-22 07:32:14,911 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:32:15,132 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:32:15,135 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:32:15,136 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:32:15,136 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:32:15,136 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:32:15,137 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:32:15,137 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:32:15,395 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:32:15,558 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:32:15,673 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:32:15,946 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:32:16,559 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:32:16,561 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:32:16,670 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:32:16,757 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2003 : Non-partitioned table already contains data : synonymdb.synonyms
+2014-06-22 07:49:11,666 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:49:12,501 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:49:12,502 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:49:12,502 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:49:12,502 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:49:12,503 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:49:12,503 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:49:12,504 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:49:13,113 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:49:13,527 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:49:13,629 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:49:13,991 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:49:14,976 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:49:14,979 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:49:15,254 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:49:15,849 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:49:16,009 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 07:49:16,069 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 07:49:16,234 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local99950562_0001
+2014-06-22 07:49:16,304 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera99950562/.staging/job_local99950562_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:49:16,317 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera99950562/.staging/job_local99950562_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:49:16,686 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local99950562_0001/job_local99950562_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:49:16,688 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local99950562_0001/job_local99950562_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:49:16,706 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 07:49:16,709 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 07:49:16,738 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:49:16,756 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+2014-06-22 07:49:16,773 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 07:49:16,886 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 07:49:16,887 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local99950562_0001_m_000000_0
+2014-06-22 07:49:16,988 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:49:16,993 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 07:49:17,012 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:49:17,284 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:49:17,284 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:49:17,284 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:49:17,284 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:49:17,284 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:49:17,970 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:49:17,970 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:49:18,048 INFO org.apache.hadoop.mapred.Task: Task:attempt_local99950562_0001_m_000000_0 is done. And is in the process of committing
+2014-06-22 07:49:18,069 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:49:18,069 INFO org.apache.hadoop.mapred.Task: Task attempt_local99950562_0001_m_000000_0 is allowed to commit now
+2014-06-22 07:49:18,075 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local99950562_0001_m_000000_0
+2014-06-22 07:49:18,078 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:49:18,078 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local99950562_0001_m_000000_0' done.
+2014-06-22 07:49:18,079 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local99950562_0001_m_000000_0
+2014-06-22 07:49:18,080 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local99950562_0001_m_000001_0
+2014-06-22 07:49:18,142 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:49:18,146 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 07:49:18,147 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:49:18,207 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:49:18,208 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:49:18,208 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:49:18,208 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:49:18,208 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:49:18,506 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:49:18,506 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:49:18,507 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 07:49:18,507 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 145; bufvoid = 104857600
+2014-06-22 07:49:18,507 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-06-22 07:49:18,518 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 07:49:18,521 INFO org.apache.hadoop.mapred.Task: Task:attempt_local99950562_0001_m_000001_0 is done. And is in the process of committing
+2014-06-22 07:49:18,524 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:49:18,525 INFO org.apache.hadoop.mapred.Task: Task attempt_local99950562_0001_m_000001_0 is allowed to commit now
+2014-06-22 07:49:18,528 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local99950562_0001_m_000001_0
+2014-06-22 07:49:18,531 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:49:18,531 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local99950562_0001_m_000001_0' done.
+2014-06-22 07:49:18,531 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local99950562_0001_m_000001_0
+2014-06-22 07:49:18,532 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 07:49:18,536 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 07:49:18,537 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local99950562_0001_r_000000_0
+2014-06-22 07:49:18,583 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:49:18,600 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@25b37592
+2014-06-22 07:49:18,624 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 07:49:18,636 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local99950562_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 07:49:18,771 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local99950562_0001_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 07:49:18,788 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local99950562_0001_m_000000_0
+2014-06-22 07:49:18,802 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+2014-06-22 07:49:18,813 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local99950562_0001_m_000001_0 decomp: 163 len: 167 to MEMORY
+2014-06-22 07:49:18,816 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 163 bytes from map-output for attempt_local99950562_0001_m_000001_0
+2014-06-22 07:49:18,818 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 163, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->165
+2014-06-22 07:49:18,819 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 07:49:18,821 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:49:18,821 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 07:49:18,847 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 07:49:18,851 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 151 bytes
+2014-06-22 07:49:18,855 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 165 bytes to disk to satisfy reduce memory limit
+2014-06-22 07:49:18,859 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 167 bytes from disk
+2014-06-22 07:49:18,862 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 07:49:18,865 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 07:49:18,865 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 151 bytes
+2014-06-22 07:49:18,868 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:49:18,919 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2014-06-22 07:49:18,926 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2014-06-22 07:49:19,211 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-06-22 07:49:19,438 INFO org.apache.hadoop.mapred.Task: Task:attempt_local99950562_0001_r_000000_0 is done. And is in the process of committing
+2014-06-22 07:49:19,442 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:49:19,443 INFO org.apache.hadoop.mapred.Task: Task attempt_local99950562_0001_r_000000_0 is allowed to commit now
+2014-06-22 07:49:19,481 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local99950562_0001_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=difficult/_temporary/0/task_local99950562_0001_r_000000
+2014-06-22 07:49:19,483 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 07:49:19,483 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local99950562_0001_r_000000_0' done.
+2014-06-22 07:49:19,487 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local99950562_0001_r_000000_0
+2014-06-22 07:49:19,488 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 07:49:19,652 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local99950562_0001/job_local99950562_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:49:19,652 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local99950562_0001/job_local99950562_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:49:19,674 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:49:19,702 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:49:19,704 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:49:19,779 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=difficult}].
+2014-06-22 07:49:20,193 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 07:49:20,308 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local99950562_0001/job_local99950562_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:49:20,308 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local99950562_0001/job_local99950562_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:49:20,318 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:50:29,925 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:50:29,945 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:50:29,947 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:50:30,024 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 07:50:30,125 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:50:30,199 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:50:30,229 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 07:50:30,256 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 07:50:30,287 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local991308463_0002
+2014-06-22 07:50:30,310 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera991308463/.staging/job_local991308463_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:50:30,311 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera991308463/.staging/job_local991308463_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:50:30,413 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local991308463_0002/job_local991308463_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:50:30,413 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local991308463_0002/job_local991308463_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:50:30,415 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 07:50:30,432 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 07:50:30,468 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:50:30,477 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 07:50:30,487 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 07:50:30,487 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local991308463_0002_m_000000_0
+2014-06-22 07:50:30,530 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:50:30,535 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 07:50:30,538 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:50:30,632 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:50:30,633 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:50:30,634 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:50:30,634 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:50:30,634 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:50:31,224 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:50:31,224 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:50:31,227 INFO org.apache.hadoop.mapred.Task: Task:attempt_local991308463_0002_m_000000_0 is done. And is in the process of committing
+2014-06-22 07:50:31,231 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:50:31,231 INFO org.apache.hadoop.mapred.Task: Task attempt_local991308463_0002_m_000000_0 is allowed to commit now
+2014-06-22 07:50:31,241 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local991308463_0002_m_000000_0
+2014-06-22 07:50:31,244 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:50:31,244 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local991308463_0002_m_000000_0' done.
+2014-06-22 07:50:31,244 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local991308463_0002_m_000000_0
+2014-06-22 07:50:31,245 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local991308463_0002_m_000001_0
+2014-06-22 07:50:31,260 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:50:31,263 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 07:50:31,263 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:50:31,283 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:50:31,283 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:50:31,283 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:50:31,284 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:50:31,284 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:50:31,403 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:50:31,404 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:50:31,406 INFO org.apache.hadoop.mapred.Task: Task:attempt_local991308463_0002_m_000001_0 is done. And is in the process of committing
+2014-06-22 07:50:31,410 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:50:31,410 INFO org.apache.hadoop.mapred.Task: Task attempt_local991308463_0002_m_000001_0 is allowed to commit now
+2014-06-22 07:50:31,413 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local991308463_0002_m_000001_0
+2014-06-22 07:50:31,415 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:50:31,416 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local991308463_0002_m_000001_0' done.
+2014-06-22 07:50:31,416 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local991308463_0002_m_000001_0
+2014-06-22 07:50:31,416 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 07:50:31,417 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 07:50:31,418 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local991308463_0002_r_000000_0
+2014-06-22 07:50:31,443 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:50:31,443 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@3fae135a
+2014-06-22 07:50:31,450 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 07:50:31,458 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local991308463_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 07:50:31,465 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local991308463_0002_m_000001_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 07:50:31,466 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local991308463_0002_m_000001_0
+2014-06-22 07:50:31,467 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+2014-06-22 07:50:31,469 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local991308463_0002_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 07:50:31,470 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local991308463_0002_m_000000_0
+2014-06-22 07:50:31,471 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->4
+2014-06-22 07:50:31,471 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 07:50:31,473 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:50:31,473 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 07:50:31,476 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 07:50:31,480 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 0 segments left of total size: 0 bytes
+2014-06-22 07:50:31,481 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 4 bytes to disk to satisfy reduce memory limit
+2014-06-22 07:50:31,481 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 6 bytes from disk
+2014-06-22 07:50:31,481 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 07:50:31,482 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 07:50:31,482 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 0 segments left of total size: 0 bytes
+2014-06-22 07:50:31,482 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:50:31,642 INFO org.apache.hadoop.mapred.Task: Task:attempt_local991308463_0002_r_000000_0 is done. And is in the process of committing
+2014-06-22 07:50:31,647 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:50:31,648 INFO org.apache.hadoop.mapred.Task: Task attempt_local991308463_0002_r_000000_0 is allowed to commit now
+2014-06-22 07:50:31,665 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local991308463_0002_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=laborious/_temporary/0/task_local991308463_0002_r_000000
+2014-06-22 07:50:31,666 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 07:50:31,667 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local991308463_0002_r_000000_0' done.
+2014-06-22 07:50:31,668 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local991308463_0002_r_000000_0
+2014-06-22 07:50:31,668 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 07:50:31,792 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local991308463_0002/job_local991308463_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:50:31,792 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local991308463_0002/job_local991308463_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:50:31,798 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:50:31,807 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:50:31,809 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:50:31,836 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=laborious}].
+2014-06-22 07:50:31,940 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 07:50:31,978 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local991308463_0002/job_local991308463_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:50:31,978 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local991308463_0002/job_local991308463_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:50:31,984 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:52:57,065 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:52:57,072 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:52:57,074 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:52:57,143 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 07:52:57,202 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:52:57,258 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:52:57,292 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 07:52:57,320 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 07:52:57,382 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local1855204943_0003
+2014-06-22 07:52:57,402 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera1855204943/.staging/job_local1855204943_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:52:57,403 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera1855204943/.staging/job_local1855204943_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:52:57,468 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1855204943_0003/job_local1855204943_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:52:57,468 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1855204943_0003/job_local1855204943_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:52:57,470 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 07:52:57,471 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 07:52:57,482 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:52:57,486 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 07:52:57,493 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 07:52:57,493 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1855204943_0003_m_000000_0
+2014-06-22 07:52:57,509 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:52:57,511 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 07:52:57,512 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:52:57,526 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:52:57,526 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:52:57,526 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:52:57,526 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:52:57,526 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:52:58,454 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:52:58,454 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:52:58,457 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1855204943_0003_m_000000_0 is done. And is in the process of committing
+2014-06-22 07:52:58,460 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:52:58,460 INFO org.apache.hadoop.mapred.Task: Task attempt_local1855204943_0003_m_000000_0 is allowed to commit now
+2014-06-22 07:52:58,464 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local1855204943_0003_m_000000_0
+2014-06-22 07:52:58,466 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:52:58,466 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1855204943_0003_m_000000_0' done.
+2014-06-22 07:52:58,466 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1855204943_0003_m_000000_0
+2014-06-22 07:52:58,467 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1855204943_0003_m_000001_0
+2014-06-22 07:52:58,501 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:52:58,503 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 07:52:58,503 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:52:58,524 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:52:58,524 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:52:58,524 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:52:58,524 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:52:58,524 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:52:58,643 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:52:58,644 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:52:58,644 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 07:52:58,644 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 104; bufvoid = 104857600
+2014-06-22 07:52:58,644 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214376(104857504); length = 21/6553600
+2014-06-22 07:52:58,646 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 07:52:58,649 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1855204943_0003_m_000001_0 is done. And is in the process of committing
+2014-06-22 07:52:58,653 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:52:58,653 INFO org.apache.hadoop.mapred.Task: Task attempt_local1855204943_0003_m_000001_0 is allowed to commit now
+2014-06-22 07:52:58,657 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local1855204943_0003_m_000001_0
+2014-06-22 07:52:58,658 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:52:58,659 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1855204943_0003_m_000001_0' done.
+2014-06-22 07:52:58,659 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1855204943_0003_m_000001_0
+2014-06-22 07:52:58,659 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 07:52:58,661 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 07:52:58,662 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1855204943_0003_r_000000_0
+2014-06-22 07:52:58,689 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:52:58,690 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@5887309f
+2014-06-22 07:52:58,691 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 07:52:58,694 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local1855204943_0003_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 07:52:58,700 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1855204943_0003_m_000001_0 decomp: 118 len: 122 to MEMORY
+2014-06-22 07:52:58,701 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 118 bytes from map-output for attempt_local1855204943_0003_m_000001_0
+2014-06-22 07:52:58,701 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 118, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->118
+2014-06-22 07:52:58,704 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1855204943_0003_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 07:52:58,704 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local1855204943_0003_m_000000_0
+2014-06-22 07:52:58,705 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 118, usedMemory ->120
+2014-06-22 07:52:58,706 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 07:52:58,708 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:52:58,708 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 07:52:58,711 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 07:52:58,712 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 106 bytes
+2014-06-22 07:52:58,714 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 120 bytes to disk to satisfy reduce memory limit
+2014-06-22 07:52:58,714 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 122 bytes from disk
+2014-06-22 07:52:58,714 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 07:52:58,714 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 07:52:58,715 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 106 bytes
+2014-06-22 07:52:58,715 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:52:58,788 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1855204943_0003_r_000000_0 is done. And is in the process of committing
+2014-06-22 07:52:58,792 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:52:58,793 INFO org.apache.hadoop.mapred.Task: Task attempt_local1855204943_0003_r_000000_0 is allowed to commit now
+2014-06-22 07:52:58,803 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local1855204943_0003_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=direction/_temporary/0/task_local1855204943_0003_r_000000
+2014-06-22 07:52:58,805 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 07:52:58,805 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1855204943_0003_r_000000_0' done.
+2014-06-22 07:52:58,805 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1855204943_0003_r_000000_0
+2014-06-22 07:52:58,805 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 07:52:58,929 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1855204943_0003/job_local1855204943_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:52:58,929 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1855204943_0003/job_local1855204943_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:52:58,937 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:52:58,960 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:52:58,962 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:52:58,985 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=direction}].
+2014-06-22 07:52:59,079 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 07:52:59,114 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1855204943_0003/job_local1855204943_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:52:59,115 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1855204943_0003/job_local1855204943_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:52:59,121 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:56:03,132 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 07:56:03,676 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 07:56:03,677 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 07:56:03,677 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 07:56:03,677 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 07:56:03,677 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 07:56:03,677 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 07:56:03,678 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 07:56:04,252 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:56:04,721 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:56:04,800 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:56:05,140 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:56:06,066 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 07:56:06,068 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 07:56:06,229 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:56:06,556 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 07:56:06,730 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 07:56:06,803 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 07:56:06,989 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local694583027_0001
+2014-06-22 07:56:07,030 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera694583027/.staging/job_local694583027_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:56:07,031 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera694583027/.staging/job_local694583027_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:56:07,138 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local694583027_0001/job_local694583027_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:56:07,139 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local694583027_0001/job_local694583027_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:56:07,148 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 07:56:07,151 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 07:56:07,178 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 07:56:07,186 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+2014-06-22 07:56:07,204 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 07:56:07,303 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 07:56:07,305 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local694583027_0001_m_000000_0
+2014-06-22 07:56:07,572 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:56:07,578 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 07:56:07,660 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:56:08,015 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:56:08,015 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:56:08,015 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:56:08,016 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:56:08,018 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:56:08,892 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:56:08,893 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:56:08,917 INFO org.apache.hadoop.mapred.Task: Task:attempt_local694583027_0001_m_000000_0 is done. And is in the process of committing
+2014-06-22 07:56:08,949 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:56:08,950 INFO org.apache.hadoop.mapred.Task: Task attempt_local694583027_0001_m_000000_0 is allowed to commit now
+2014-06-22 07:56:08,954 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local694583027_0001_m_000000_0
+2014-06-22 07:56:08,956 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:56:08,959 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local694583027_0001_m_000000_0' done.
+2014-06-22 07:56:08,963 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local694583027_0001_m_000000_0
+2014-06-22 07:56:08,964 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local694583027_0001_m_000001_0
+2014-06-22 07:56:09,006 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:56:09,008 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 07:56:09,009 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 07:56:09,060 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 07:56:09,061 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 07:56:09,061 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 07:56:09,061 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 07:56:09,061 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 07:56:09,376 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:56:09,377 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 07:56:09,377 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 07:56:09,377 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 170; bufvoid = 104857600
+2014-06-22 07:56:09,378 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214352(104857408); length = 45/6553600
+2014-06-22 07:56:09,386 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 07:56:09,389 INFO org.apache.hadoop.mapred.Task: Task:attempt_local694583027_0001_m_000001_0 is done. And is in the process of committing
+2014-06-22 07:56:09,393 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 07:56:09,394 INFO org.apache.hadoop.mapred.Task: Task attempt_local694583027_0001_m_000001_0 is allowed to commit now
+2014-06-22 07:56:09,397 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local694583027_0001_m_000001_0
+2014-06-22 07:56:09,401 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 07:56:09,401 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local694583027_0001_m_000001_0' done.
+2014-06-22 07:56:09,402 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local694583027_0001_m_000001_0
+2014-06-22 07:56:09,402 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 07:56:09,405 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 07:56:09,409 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local694583027_0001_r_000000_0
+2014-06-22 07:56:09,489 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 07:56:09,520 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@3bf83742
+2014-06-22 07:56:09,571 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 07:56:09,604 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local694583027_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 07:56:09,710 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local694583027_0001_m_000001_0 decomp: 196 len: 200 to MEMORY
+2014-06-22 07:56:09,720 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 196 bytes from map-output for attempt_local694583027_0001_m_000001_0
+2014-06-22 07:56:09,733 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 196, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->196
+2014-06-22 07:56:09,745 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local694583027_0001_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 07:56:09,746 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local694583027_0001_m_000000_0
+2014-06-22 07:56:09,748 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 196, usedMemory ->198
+2014-06-22 07:56:09,749 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 07:56:09,753 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:56:09,754 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 07:56:09,832 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 07:56:09,837 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 188 bytes
+2014-06-22 07:56:09,839 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 198 bytes to disk to satisfy reduce memory limit
+2014-06-22 07:56:09,839 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 200 bytes from disk
+2014-06-22 07:56:09,843 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 07:56:09,843 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 07:56:09,844 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 188 bytes
+2014-06-22 07:56:09,848 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:56:09,881 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2014-06-22 07:56:09,890 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2014-06-22 07:56:10,221 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-06-22 07:56:10,727 INFO org.apache.hadoop.mapred.Task: Task:attempt_local694583027_0001_r_000000_0 is done. And is in the process of committing
+2014-06-22 07:56:10,733 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 07:56:10,734 INFO org.apache.hadoop.mapred.Task: Task attempt_local694583027_0001_r_000000_0 is allowed to commit now
+2014-06-22 07:56:10,773 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local694583027_0001_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=abase/_temporary/0/task_local694583027_0001_r_000000
+2014-06-22 07:56:10,774 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 07:56:10,775 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local694583027_0001_r_000000_0' done.
+2014-06-22 07:56:10,775 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local694583027_0001_r_000000_0
+2014-06-22 07:56:10,775 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 07:56:11,012 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local694583027_0001/job_local694583027_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:56:11,018 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local694583027_0001/job_local694583027_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:56:11,036 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 07:56:11,060 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 07:56:11,080 INFO hive.metastore: Connected to metastore.
+2014-06-22 07:56:11,158 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=abase}].
+2014-06-22 07:56:11,374 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 07:56:11,558 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local694583027_0001/job_local694583027_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 07:56:11,559 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local694583027_0001/job_local694583027_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 07:56:11,595 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:01:32,739 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:01:32,761 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:01:32,779 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:01:32,956 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:01:33,095 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:01:33,174 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2002 : Partition already present with given partition key values
+2014-06-22 08:02:59,193 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 08:02:59,848 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 08:02:59,849 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 08:02:59,850 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 08:02:59,850 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 08:02:59,850 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 08:02:59,850 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 08:02:59,851 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 08:03:00,321 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:03:00,592 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:03:00,663 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:03:01,061 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:03:01,935 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 08:03:01,937 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 08:03:02,112 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:03:02,208 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2002 : Partition already present with given partition key values
+2014-06-22 08:06:22,062 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:06:22,159 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:06:22,173 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:06:22,284 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:06:22,446 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:06:22,774 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 08:06:22,966 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 08:06:23,105 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 08:06:23,392 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local877959846_0001
+2014-06-22 08:06:23,503 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera877959846/.staging/job_local877959846_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:06:23,510 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera877959846/.staging/job_local877959846_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:06:23,751 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local877959846_0001/job_local877959846_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:06:23,752 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local877959846_0001/job_local877959846_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:06:23,767 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 08:06:23,779 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 08:06:23,804 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:06:23,808 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+2014-06-22 08:06:23,825 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 08:06:23,972 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 08:06:23,974 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local877959846_0001_m_000000_0
+2014-06-22 08:06:24,103 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:06:24,109 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 08:06:24,135 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:06:24,724 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:06:24,731 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:06:24,731 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:06:24,731 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:06:24,733 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:06:25,700 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:06:25,700 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:06:25,713 INFO org.apache.hadoop.mapred.Task: Task:attempt_local877959846_0001_m_000000_0 is done. And is in the process of committing
+2014-06-22 08:06:25,728 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:06:25,728 INFO org.apache.hadoop.mapred.Task: Task attempt_local877959846_0001_m_000000_0 is allowed to commit now
+2014-06-22 08:06:25,733 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local877959846_0001_m_000000_0
+2014-06-22 08:06:25,734 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:06:25,737 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local877959846_0001_m_000000_0' done.
+2014-06-22 08:06:25,737 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local877959846_0001_m_000000_0
+2014-06-22 08:06:25,737 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local877959846_0001_m_000001_0
+2014-06-22 08:06:25,773 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:06:25,777 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 08:06:25,777 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:06:25,842 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:06:25,843 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:06:25,843 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:06:25,843 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:06:25,843 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:06:26,547 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:06:26,548 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:06:26,553 INFO org.apache.hadoop.mapred.Task: Task:attempt_local877959846_0001_m_000001_0 is done. And is in the process of committing
+2014-06-22 08:06:26,565 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:06:26,565 INFO org.apache.hadoop.mapred.Task: Task attempt_local877959846_0001_m_000001_0 is allowed to commit now
+2014-06-22 08:06:26,575 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local877959846_0001_m_000001_0
+2014-06-22 08:06:26,578 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:06:26,578 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local877959846_0001_m_000001_0' done.
+2014-06-22 08:06:26,578 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local877959846_0001_m_000001_0
+2014-06-22 08:06:26,579 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 08:06:26,586 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 08:06:26,587 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local877959846_0001_r_000000_0
+2014-06-22 08:06:26,665 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:06:26,680 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@14c0ab5c
+2014-06-22 08:06:26,718 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 08:06:26,760 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local877959846_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 08:06:26,890 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local877959846_0001_m_000001_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 08:06:26,906 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local877959846_0001_m_000001_0
+2014-06-22 08:06:26,921 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+2014-06-22 08:06:26,931 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local877959846_0001_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 08:06:26,931 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local877959846_0001_m_000000_0
+2014-06-22 08:06:26,933 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->4
+2014-06-22 08:06:26,934 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 08:06:26,935 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:06:26,936 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 08:06:26,963 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 08:06:26,972 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 0 segments left of total size: 0 bytes
+2014-06-22 08:06:26,974 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 4 bytes to disk to satisfy reduce memory limit
+2014-06-22 08:06:26,981 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 6 bytes from disk
+2014-06-22 08:06:26,982 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 08:06:26,982 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 08:06:26,982 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 0 segments left of total size: 0 bytes
+2014-06-22 08:06:26,987 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:06:27,020 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2014-06-22 08:06:27,027 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2014-06-22 08:06:27,572 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-06-22 08:06:28,124 INFO org.apache.hadoop.mapred.Task: Task:attempt_local877959846_0001_r_000000_0 is done. And is in the process of committing
+2014-06-22 08:06:28,134 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:06:28,135 INFO org.apache.hadoop.mapred.Task: Task attempt_local877959846_0001_r_000000_0 is allowed to commit now
+2014-06-22 08:06:28,168 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local877959846_0001_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=incongrous/_temporary/0/task_local877959846_0001_r_000000
+2014-06-22 08:06:28,173 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 08:06:28,174 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local877959846_0001_r_000000_0' done.
+2014-06-22 08:06:28,174 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local877959846_0001_r_000000_0
+2014-06-22 08:06:28,179 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 08:06:28,459 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local877959846_0001/job_local877959846_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:06:28,459 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local877959846_0001/job_local877959846_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:06:28,478 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:06:28,518 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:06:28,534 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:06:28,701 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=incongrous}].
+2014-06-22 08:06:29,039 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 08:06:29,136 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local877959846_0001/job_local877959846_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:06:29,138 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local877959846_0001/job_local877959846_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:06:29,162 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:07:44,993 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:07:45,003 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:07:45,004 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:07:45,090 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:07:45,181 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:07:45,254 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 08:07:45,290 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 08:07:45,316 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 08:07:45,368 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local539555908_0002
+2014-06-22 08:07:45,388 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera539555908/.staging/job_local539555908_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:07:45,388 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera539555908/.staging/job_local539555908_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:07:45,467 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local539555908_0002/job_local539555908_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:07:45,468 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local539555908_0002/job_local539555908_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:07:45,471 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 08:07:45,475 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 08:07:45,488 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:07:45,496 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 08:07:45,523 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 08:07:45,526 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local539555908_0002_m_000000_0
+2014-06-22 08:07:45,581 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:07:45,591 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 08:07:45,593 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:07:45,683 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:07:45,683 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:07:45,683 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:07:45,684 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:07:45,685 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:07:46,316 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:07:46,317 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:07:46,320 INFO org.apache.hadoop.mapred.Task: Task:attempt_local539555908_0002_m_000000_0 is done. And is in the process of committing
+2014-06-22 08:07:46,325 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:07:46,325 INFO org.apache.hadoop.mapred.Task: Task attempt_local539555908_0002_m_000000_0 is allowed to commit now
+2014-06-22 08:07:46,329 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local539555908_0002_m_000000_0
+2014-06-22 08:07:46,333 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:07:46,334 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local539555908_0002_m_000000_0' done.
+2014-06-22 08:07:46,334 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local539555908_0002_m_000000_0
+2014-06-22 08:07:46,334 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local539555908_0002_m_000001_0
+2014-06-22 08:07:46,359 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:07:46,361 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 08:07:46,362 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:07:46,384 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:07:46,385 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:07:46,385 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:07:46,385 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:07:46,385 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:07:46,535 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:07:46,535 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:07:46,535 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 08:07:46,535 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 109; bufvoid = 104857600
+2014-06-22 08:07:46,536 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-06-22 08:07:46,543 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 08:07:46,548 INFO org.apache.hadoop.mapred.Task: Task:attempt_local539555908_0002_m_000001_0 is done. And is in the process of committing
+2014-06-22 08:07:46,553 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:07:46,554 INFO org.apache.hadoop.mapred.Task: Task attempt_local539555908_0002_m_000001_0 is allowed to commit now
+2014-06-22 08:07:46,557 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local539555908_0002_m_000001_0
+2014-06-22 08:07:46,560 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:07:46,560 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local539555908_0002_m_000001_0' done.
+2014-06-22 08:07:46,560 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local539555908_0002_m_000001_0
+2014-06-22 08:07:46,561 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 08:07:46,562 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 08:07:46,562 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local539555908_0002_r_000000_0
+2014-06-22 08:07:46,604 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:07:46,609 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6d56533
+2014-06-22 08:07:46,611 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 08:07:46,613 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local539555908_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 08:07:46,618 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local539555908_0002_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 08:07:46,619 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local539555908_0002_m_000000_0
+2014-06-22 08:07:46,620 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+2014-06-22 08:07:46,629 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local539555908_0002_m_000001_0 decomp: 127 len: 131 to MEMORY
+2014-06-22 08:07:46,629 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 127 bytes from map-output for attempt_local539555908_0002_m_000001_0
+2014-06-22 08:07:46,630 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 127, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->129
+2014-06-22 08:07:46,630 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 08:07:46,631 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:07:46,631 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 08:07:46,633 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 08:07:46,634 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 119 bytes
+2014-06-22 08:07:46,635 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 129 bytes to disk to satisfy reduce memory limit
+2014-06-22 08:07:46,636 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 131 bytes from disk
+2014-06-22 08:07:46,636 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 08:07:46,636 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 08:07:46,637 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 119 bytes
+2014-06-22 08:07:46,637 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:07:46,686 INFO org.apache.hadoop.mapred.Task: Task:attempt_local539555908_0002_r_000000_0 is done. And is in the process of committing
+2014-06-22 08:07:46,690 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:07:46,690 INFO org.apache.hadoop.mapred.Task: Task attempt_local539555908_0002_r_000000_0 is allowed to commit now
+2014-06-22 08:07:46,750 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local539555908_0002_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=ABATE/_temporary/0/task_local539555908_0002_r_000000
+2014-06-22 08:07:46,754 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 08:07:46,754 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local539555908_0002_r_000000_0' done.
+2014-06-22 08:07:46,754 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local539555908_0002_r_000000_0
+2014-06-22 08:07:46,755 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 08:07:46,827 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local539555908_0002/job_local539555908_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:07:46,828 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local539555908_0002/job_local539555908_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:07:46,835 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:07:46,847 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:07:46,849 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:07:46,876 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=ABATE}].
+2014-06-22 08:07:47,004 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 08:07:47,035 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local539555908_0002/job_local539555908_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:07:47,036 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local539555908_0002/job_local539555908_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:07:47,041 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:09:24,708 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:09:24,727 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:09:24,736 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:09:24,819 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:09:24,895 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:09:24,949 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 08:09:24,979 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 08:09:25,005 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 08:09:25,029 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local1584218080_0003
+2014-06-22 08:09:25,053 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera1584218080/.staging/job_local1584218080_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:09:25,054 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera1584218080/.staging/job_local1584218080_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:09:25,110 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1584218080_0003/job_local1584218080_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:09:25,110 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1584218080_0003/job_local1584218080_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:09:25,112 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 08:09:25,113 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 08:09:25,122 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:09:25,126 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 08:09:25,137 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 08:09:25,138 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1584218080_0003_m_000000_0
+2014-06-22 08:09:25,153 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:09:25,155 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 08:09:25,156 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:09:25,173 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:09:25,174 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:09:25,175 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:09:25,175 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:09:25,175 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:09:26,440 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:09:26,440 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:09:26,443 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1584218080_0003_m_000000_0 is done. And is in the process of committing
+2014-06-22 08:09:26,447 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:09:26,447 INFO org.apache.hadoop.mapred.Task: Task attempt_local1584218080_0003_m_000000_0 is allowed to commit now
+2014-06-22 08:09:26,450 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local1584218080_0003_m_000000_0
+2014-06-22 08:09:26,453 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:09:26,454 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1584218080_0003_m_000000_0' done.
+2014-06-22 08:09:26,456 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1584218080_0003_m_000000_0
+2014-06-22 08:09:26,456 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1584218080_0003_m_000001_0
+2014-06-22 08:09:26,470 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:09:26,472 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 08:09:26,472 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:09:26,486 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:09:26,487 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:09:26,487 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:09:26,487 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:09:26,487 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:09:26,604 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:09:26,604 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:09:26,604 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 08:09:26,604 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 175; bufvoid = 104857600
+2014-06-22 08:09:26,604 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214352(104857408); length = 45/6553600
+2014-06-22 08:09:26,607 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 08:09:26,609 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1584218080_0003_m_000001_0 is done. And is in the process of committing
+2014-06-22 08:09:26,612 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:09:26,612 INFO org.apache.hadoop.mapred.Task: Task attempt_local1584218080_0003_m_000001_0 is allowed to commit now
+2014-06-22 08:09:26,616 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local1584218080_0003_m_000001_0
+2014-06-22 08:09:26,617 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:09:26,617 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1584218080_0003_m_000001_0' done.
+2014-06-22 08:09:26,617 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1584218080_0003_m_000001_0
+2014-06-22 08:09:26,618 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 08:09:26,618 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 08:09:26,620 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1584218080_0003_r_000000_0
+2014-06-22 08:09:26,635 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:09:26,635 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4dbc4d53
+2014-06-22 08:09:26,636 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 08:09:26,641 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local1584218080_0003_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 08:09:26,645 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1584218080_0003_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 08:09:26,646 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local1584218080_0003_m_000000_0
+2014-06-22 08:09:26,647 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+2014-06-22 08:09:26,651 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1584218080_0003_m_000001_0 decomp: 201 len: 205 to MEMORY
+2014-06-22 08:09:26,652 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 201 bytes from map-output for attempt_local1584218080_0003_m_000001_0
+2014-06-22 08:09:26,653 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 201, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->203
+2014-06-22 08:09:26,654 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 08:09:26,656 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:09:26,656 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 08:09:26,657 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 08:09:26,658 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 193 bytes
+2014-06-22 08:09:26,659 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 203 bytes to disk to satisfy reduce memory limit
+2014-06-22 08:09:26,660 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 205 bytes from disk
+2014-06-22 08:09:26,660 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 08:09:26,660 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 08:09:26,660 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 193 bytes
+2014-06-22 08:09:26,661 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:09:26,803 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1584218080_0003_r_000000_0 is done. And is in the process of committing
+2014-06-22 08:09:26,807 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:09:26,807 INFO org.apache.hadoop.mapred.Task: Task attempt_local1584218080_0003_r_000000_0 is allowed to commit now
+2014-06-22 08:09:26,820 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local1584218080_0003_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=ABASH/_temporary/0/task_local1584218080_0003_r_000000
+2014-06-22 08:09:26,821 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 08:09:26,824 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1584218080_0003_r_000000_0' done.
+2014-06-22 08:09:26,824 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1584218080_0003_r_000000_0
+2014-06-22 08:09:26,824 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 08:09:26,921 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1584218080_0003/job_local1584218080_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:09:26,922 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1584218080_0003/job_local1584218080_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:09:26,928 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:09:26,942 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:09:26,944 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:09:27,042 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=ABASH}].
+2014-06-22 08:09:27,135 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 08:09:27,169 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1584218080_0003/job_local1584218080_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:09:27,170 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1584218080_0003/job_local1584218080_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:09:27,176 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:10:50,840 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:10:50,846 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:10:50,848 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:10:50,956 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:10:51,003 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:10:51,033 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2002 : Partition already present with given partition key values
+2014-06-22 08:11:06,718 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:11:06,721 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:11:06,725 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:11:06,815 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:11:06,862 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:11:06,894 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2002 : Partition already present with given partition key values
+2014-06-22 08:13:35,190 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:13:35,198 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:13:35,201 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:13:35,280 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:13:35,356 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:13:35,416 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 08:13:35,465 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 08:13:35,494 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 08:13:35,515 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local1350044827_0004
+2014-06-22 08:13:35,534 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera1350044827/.staging/job_local1350044827_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:13:35,535 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera1350044827/.staging/job_local1350044827_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:13:35,618 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1350044827_0004/job_local1350044827_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:13:35,618 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1350044827_0004/job_local1350044827_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:13:35,621 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 08:13:35,627 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 08:13:35,663 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:13:35,677 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 08:13:35,715 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 08:13:35,717 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1350044827_0004_m_000000_0
+2014-06-22 08:13:35,775 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:13:35,782 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 08:13:35,784 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:13:35,810 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:13:35,816 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:13:35,817 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:13:35,817 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:13:35,817 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:13:36,773 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:13:36,774 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:13:36,777 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1350044827_0004_m_000000_0 is done. And is in the process of committing
+2014-06-22 08:13:36,783 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:13:36,784 INFO org.apache.hadoop.mapred.Task: Task attempt_local1350044827_0004_m_000000_0 is allowed to commit now
+2014-06-22 08:13:36,788 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local1350044827_0004_m_000000_0
+2014-06-22 08:13:36,790 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:13:36,791 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1350044827_0004_m_000000_0' done.
+2014-06-22 08:13:36,791 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1350044827_0004_m_000000_0
+2014-06-22 08:13:36,792 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1350044827_0004_m_000001_0
+2014-06-22 08:13:36,807 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:13:36,809 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 08:13:36,809 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:13:36,834 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:13:36,837 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:13:36,838 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:13:36,838 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:13:36,838 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:13:36,992 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:13:36,992 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:13:36,992 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 08:13:36,993 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 145; bufvoid = 104857600
+2014-06-22 08:13:36,993 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-06-22 08:13:36,994 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 08:13:36,997 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1350044827_0004_m_000001_0 is done. And is in the process of committing
+2014-06-22 08:13:37,001 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:13:37,002 INFO org.apache.hadoop.mapred.Task: Task attempt_local1350044827_0004_m_000001_0 is allowed to commit now
+2014-06-22 08:13:37,005 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local1350044827_0004_m_000001_0
+2014-06-22 08:13:37,006 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:13:37,006 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1350044827_0004_m_000001_0' done.
+2014-06-22 08:13:37,007 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1350044827_0004_m_000001_0
+2014-06-22 08:13:37,007 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 08:13:37,008 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 08:13:37,009 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1350044827_0004_r_000000_0
+2014-06-22 08:13:37,022 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:13:37,022 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@5fc4083e
+2014-06-22 08:13:37,023 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 08:13:37,026 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local1350044827_0004_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 08:13:37,029 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1350044827_0004_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 08:13:37,030 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local1350044827_0004_m_000000_0
+2014-06-22 08:13:37,030 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+2014-06-22 08:13:37,034 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1350044827_0004_m_000001_0 decomp: 163 len: 167 to MEMORY
+2014-06-22 08:13:37,034 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 163 bytes from map-output for attempt_local1350044827_0004_m_000001_0
+2014-06-22 08:13:37,034 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 163, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->165
+2014-06-22 08:13:37,035 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 08:13:37,037 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:13:37,038 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 08:13:37,039 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 08:13:37,041 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 151 bytes
+2014-06-22 08:13:37,041 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 165 bytes to disk to satisfy reduce memory limit
+2014-06-22 08:13:37,042 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 167 bytes from disk
+2014-06-22 08:13:37,042 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 08:13:37,042 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 08:13:37,042 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 151 bytes
+2014-06-22 08:13:37,043 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:13:37,112 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1350044827_0004_r_000000_0 is done. And is in the process of committing
+2014-06-22 08:13:37,116 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:13:37,117 INFO org.apache.hadoop.mapred.Task: Task attempt_local1350044827_0004_r_000000_0 is allowed to commit now
+2014-06-22 08:13:37,145 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local1350044827_0004_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=difficult/_temporary/0/task_local1350044827_0004_r_000000
+2014-06-22 08:13:37,147 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 08:13:37,147 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1350044827_0004_r_000000_0' done.
+2014-06-22 08:13:37,147 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1350044827_0004_r_000000_0
+2014-06-22 08:13:37,149 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 08:13:37,290 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1350044827_0004/job_local1350044827_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:13:37,291 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1350044827_0004/job_local1350044827_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:13:37,295 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:13:37,299 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:13:37,301 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:13:37,320 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=difficult}].
+2014-06-22 08:13:37,413 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 08:13:37,444 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1350044827_0004/job_local1350044827_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:13:37,445 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local1350044827_0004/job_local1350044827_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:13:37,453 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:14:33,636 WARN org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-06-22 08:14:34,485 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.input.dir.recursive is deprecated. Instead, use mapreduce.input.fileinputformat.input.dir.recursive
+2014-06-22 08:14:34,493 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.max.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.maxsize
+2014-06-22 08:14:34,493 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-06-22 08:14:34,494 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.rack is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.rack
+2014-06-22 08:14:34,494 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.min.split.size.per.node is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize.per.node
+2014-06-22 08:14:34,494 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2014-06-22 08:14:34,495 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.reduce.tasks.speculative.execution is deprecated. Instead, use mapreduce.reduce.speculative
+2014-06-22 08:14:35,401 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:14:35,577 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:14:35,672 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:14:35,986 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:14:36,797 INFO org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2014-06-22 08:14:36,799 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-06-22 08:14:37,114 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:14:37,216 WARN org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:cloudera (auth:SIMPLE) cause:org.apache.hive.hcatalog.common.HCatException : 2002 : Partition already present with given partition key values
+2014-06-22 08:16:01,977 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:16:01,997 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:16:01,999 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:16:02,088 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-06-22 08:16:02,178 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:16:02,374 WARN org.apache.hadoop.mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-06-22 08:16:02,425 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 2
+2014-06-22 08:16:02,473 INFO org.apache.hadoop.mapreduce.JobSubmitter: number of splits:2
+2014-06-22 08:16:02,593 INFO org.apache.hadoop.mapreduce.JobSubmitter: Submitting tokens for job: job_local355493577_0001
+2014-06-22 08:16:02,622 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera355493577/.staging/job_local355493577_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:16:02,623 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/staging/cloudera355493577/.staging/job_local355493577_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:16:02,774 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local355493577_0001/job_local355493577_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:16:02,775 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local355493577_0001/job_local355493577_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:16:02,783 INFO org.apache.hadoop.mapreduce.Job: The url to track the job: http://localhost:8080/
+2014-06-22 08:16:02,786 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2014-06-22 08:16:02,821 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-06-22 08:16:02,827 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.work.output.dir is deprecated. Instead, use mapreduce.task.output.dir
+2014-06-22 08:16:02,839 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer
+2014-06-22 08:16:02,951 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2014-06-22 08:16:02,954 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local355493577_0001_m_000000_0
+2014-06-22 08:16:03,045 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:16:03,053 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/th_en_US_new_dictionary.txt:0+11942849
+2014-06-22 08:16:03,080 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:16:03,607 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:16:03,607 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:16:03,607 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:16:03,607 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:16:03,609 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:16:04,415 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:16:04,416 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:16:04,431 INFO org.apache.hadoop.mapred.Task: Task:attempt_local355493577_0001_m_000000_0 is done. And is in the process of committing
+2014-06-22 08:16:04,458 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:16:04,458 INFO org.apache.hadoop.mapred.Task: Task attempt_local355493577_0001_m_000000_0 is allowed to commit now
+2014-06-22 08:16:04,465 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local355493577_0001_m_000000_0
+2014-06-22 08:16:04,469 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:16:04,472 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local355493577_0001_m_000000_0' done.
+2014-06-22 08:16:04,473 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local355493577_0001_m_000000_0
+2014-06-22 08:16:04,473 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local355493577_0001_m_000001_0
+2014-06-22 08:16:04,520 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:16:04,532 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/cloudera/ee-git/synonym-search-hadoop/SynonymMapReduce/input/dictionary1:0+1408980
+2014-06-22 08:16:04,533 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-06-22 08:16:04,604 INFO org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2014-06-22 08:16:04,605 INFO org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2014-06-22 08:16:04,605 INFO org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2014-06-22 08:16:04,605 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2014-06-22 08:16:04,606 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2014-06-22 08:16:04,946 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:16:04,946 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-06-22 08:16:04,946 INFO org.apache.hadoop.mapred.MapTask: Spilling map output
+2014-06-22 08:16:04,947 INFO org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 104; bufvoid = 104857600
+2014-06-22 08:16:04,947 INFO org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214376(104857504); length = 21/6553600
+2014-06-22 08:16:04,960 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-06-22 08:16:04,969 INFO org.apache.hadoop.mapred.Task: Task:attempt_local355493577_0001_m_000001_0 is done. And is in the process of committing
+2014-06-22 08:16:04,984 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2014-06-22 08:16:04,984 INFO org.apache.hadoop.mapred.Task: Task attempt_local355493577_0001_m_000001_0 is allowed to commit now
+2014-06-22 08:16:04,996 WARN org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: No Output found for attempt_local355493577_0001_m_000001_0
+2014-06-22 08:16:04,999 INFO org.apache.hadoop.mapred.LocalJobRunner: map
+2014-06-22 08:16:04,999 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local355493577_0001_m_000001_0' done.
+2014-06-22 08:16:05,000 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local355493577_0001_m_000001_0
+2014-06-22 08:16:05,000 INFO org.apache.hadoop.mapred.LocalJobRunner: map task executor complete.
+2014-06-22 08:16:05,011 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for reduce tasks
+2014-06-22 08:16:05,015 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local355493577_0001_r_000000_0
+2014-06-22 08:16:05,066 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2014-06-22 08:16:05,072 INFO org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@61d6f06a
+2014-06-22 08:16:05,096 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=1038614528, maxSingleShuffleLimit=259653632, mergeThreshold=685485632, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-06-22 08:16:05,115 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_local355493577_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-06-22 08:16:05,205 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local355493577_0001_m_000001_0 decomp: 118 len: 122 to MEMORY
+2014-06-22 08:16:05,209 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 118 bytes from map-output for attempt_local355493577_0001_m_000001_0
+2014-06-22 08:16:05,226 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 118, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->118
+2014-06-22 08:16:05,230 INFO org.apache.hadoop.mapreduce.task.reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local355493577_0001_m_000000_0 decomp: 2 len: 6 to MEMORY
+2014-06-22 08:16:05,237 INFO org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local355493577_0001_m_000000_0
+2014-06-22 08:16:05,237 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 2, commitMemory -> 118, usedMemory ->120
+2014-06-22 08:16:05,238 INFO org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2014-06-22 08:16:05,240 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:16:05,240 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 2 in-memory map-outputs and 0 on-disk map-outputs
+2014-06-22 08:16:05,265 INFO org.apache.hadoop.mapred.Merger: Merging 2 sorted segments
+2014-06-22 08:16:05,272 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 106 bytes
+2014-06-22 08:16:05,272 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 2 segments, 120 bytes to disk to satisfy reduce memory limit
+2014-06-22 08:16:05,273 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 122 bytes from disk
+2014-06-22 08:16:05,274 INFO org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2014-06-22 08:16:05,274 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2014-06-22 08:16:05,274 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 106 bytes
+2014-06-22 08:16:05,274 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:16:05,307 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.key.class is deprecated. Instead, use mapreduce.job.output.key.class
+2014-06-22 08:16:05,317 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.output.value.class is deprecated. Instead, use mapreduce.job.output.value.class
+2014-06-22 08:16:05,777 INFO org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-06-22 08:16:06,109 INFO org.apache.hadoop.mapred.Task: Task:attempt_local355493577_0001_r_000000_0 is done. And is in the process of committing
+2014-06-22 08:16:06,114 INFO org.apache.hadoop.mapred.LocalJobRunner: 2 / 2 copied.
+2014-06-22 08:16:06,114 INFO org.apache.hadoop.mapred.Task: Task attempt_local355493577_0001_r_000000_0 is allowed to commit now
+2014-06-22 08:16:06,139 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local355493577_0001_r_000000_0' to hdfs://localhost.localdomain:8020/user/hive/warehouse/synonymdb.db/synonyms/synonym=direction/_temporary/0/task_local355493577_0001_r_000000
+2014-06-22 08:16:06,141 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2014-06-22 08:16:06,141 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local355493577_0001_r_000000_0' done.
+2014-06-22 08:16:06,141 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local355493577_0001_r_000000_0
+2014-06-22 08:16:06,141 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce task executor complete.
+2014-06-22 08:16:06,269 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local355493577_0001/job_local355493577_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:16:06,269 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local355493577_0001/job_local355493577_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:16:06,282 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.
+2014-06-22 08:16:06,303 INFO hive.metastore: Trying to connect to metastore with URI thrift://localhost.localdomain:9083
+2014-06-22 08:16:06,305 INFO hive.metastore: Connected to metastore.
+2014-06-22 08:16:06,340 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: HAR not is not being used. The table synonyms has new partitions [{synonym=direction}].
+2014-06-22 08:16:06,446 INFO org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer: Cancelling deletgation token for the job.
+2014-06-22 08:16:06,487 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local355493577_0001/job_local355493577_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-06-22 08:16:06,487 WARN org.apache.hadoop.conf.Configuration: file:/tmp/hadoop-cloudera/mapred/local/localRunner/cloudera/job_local355493577_0001/job_local355493577_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-06-22 08:16:06,492 WARN org.apache.hadoop.hive.conf.HiveConf: DEPRECATED: Configuration property hive.metastore.local no longer has any effect. Make sure to provide a valid value for hive.metastore.uris if you are connecting to a remote metastore.

@@ -41,6 +41,12 @@ public class SearchSynonym extends HttpServlet {
 		{
 			SynonymMapReduce mapReduce=new SynonymMapReduce();
 			mapReduce.startSynonymSearchMapReduce(searchKeyword);
+			try {
+				Thread.sleep(3000l);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			s=hjc.searchString(searchKeyword);
 			if(s==null)
 			{
@@ -60,7 +66,7 @@ public class SearchSynonym extends HttpServlet {
 		
 		for(String synonym:synonyms)
 		{
-			response.getOutputStream().println(synonym +",");
+			response.getOutputStream().println(synonym);
 		}
 	}
 

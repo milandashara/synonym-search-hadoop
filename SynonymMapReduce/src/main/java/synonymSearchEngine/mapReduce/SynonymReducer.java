@@ -50,7 +50,7 @@ WritableComparable<LongWritable>, HCatRecord> {
          record.set(0, key.toString());
          record.set(1, s);
      //    new LongWritable(System.currentTimeMillis())
-         context.write(null, record);
+         context.write(new LongWritable(System.currentTimeMillis()), record);
 		
 		//context.write(key, synonymsText);
 		context.progress();

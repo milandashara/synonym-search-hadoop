@@ -9,7 +9,7 @@
 <body>
 <form action="searchSynonym">
 <input type="text" id="searchTextBox" name="searchTextBox" />
-<input type="submit">Search</button>
+<input type="submit" value="search"></button>
 </form>
 </body>
 </html>

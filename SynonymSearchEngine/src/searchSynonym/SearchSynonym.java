@@ -42,7 +42,7 @@ public class SearchSynonym extends HttpServlet {
 			SynonymMapReduce mapReduce=new SynonymMapReduce();
 			mapReduce.startSynonymSearchMapReduce(searchKeyword);
 			try {
-				Thread.sleep(3000l);
+				Thread.sleep(10000l);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
